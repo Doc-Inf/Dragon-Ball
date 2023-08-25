@@ -1,0 +1,17 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+}
+
+img.sfondo{
+    width:100%;
+}
+
+img#player1Image{
+    position:fixed;
+    display:none;
+}
+
+img#player2Image{
+    display:none;
+}    

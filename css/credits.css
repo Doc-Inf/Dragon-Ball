@@ -1,0 +1,71 @@
+body {
+    background-color: coral;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive; /* Aggiunto il font 'Press Start 2P' */
+}
+    
+h1 {
+    font-size: 90px;
+    margin-top: 20px;
+    text-shadow: 5px 5px 2px rgb(81, 53, 0);
+}
+    
+span{
+    font-size: 52px;
+    margin-bottom: 7.8px;
+}
+    
+.menu-buttons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+a.button {
+    font-size: 24px;
+    width: 240px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: orange;
+    color: #ffffff;
+    border: 1px outset rgb(81, 53, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 5px 5px 2px rgb(81, 53, 0);
+}
+      
+a.button:hover {
+    background-color: orangered;
+}
+
+table{
+    margin-top: 2rem;
+    margin-bottom: 50px;
+}
+
+td.main{
+    padding:2rem 2rem 4rem 2rem;
+}
+
+th{
+    color:rgb(241, 70, 8);   
+    text-shadow: 5px 5px 2px rgb(81, 53, 0);
+}
+
+@media screen and (max-width:1200px){
+    td,th{
+        padding:0rem 1.5rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:1201px){
+    td,th{
+        padding:0rem 2rem;
+        font-size: 3rem;
+    }
+}
